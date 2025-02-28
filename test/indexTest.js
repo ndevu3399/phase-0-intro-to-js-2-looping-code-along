@@ -1,7 +1,7 @@
 require('./helpers.js');
 const { expect } = require('chai');  // Ensure chai is required
 const sinon = require('sinon');
-const { writeCards, countDown } = require('./index.js'); // Import functions
+const { writeCards, countDown } = require('../index.js'); // Import functions
 
 describe('index.js', () => {
   let spy;
